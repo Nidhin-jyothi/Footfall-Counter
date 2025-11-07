@@ -39,7 +39,7 @@ footfall-counter/
 *Processed video with entry/exit counts and tracking visualization*
 
 ## Processed Video Demo
-![Demo Video](static/demo/processed_demo.gif)
+[Watch processed demo video on Google Drive](https://drive.google.com/file/d/1j-T26NFZyvn3kUw0DaaBSIyVTNhUMho1/view?usp=sharing)
 *Sample output showing people detection, tracking, and counting visualization*
 
 ## Approach
@@ -49,9 +49,6 @@ footfall-counter/
    - User provides a **line orientation** (horizontal or vertical) and **line position** (pixel coordinate) via a web interface.
    - The `FootfallCounter` class tracks IDs and counts entries/exits when they cross the defined line.
 4. **Visualization:** Bounding boxes, IDs, line, and in/out counts are drawn on each frame. The processed video is saved and accessible via the web interface.
-
-## Demo Video
-Use the provided demo video in `/static/demo/` or record your own using a webcam/phone camera.
 
 ## Counting Logic
 - Horizontal line → counts people moving **up/down**
