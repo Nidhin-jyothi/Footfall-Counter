@@ -47,7 +47,7 @@ footfall-counter/
 2. **Tracking:** YOLOv8 assigns unique IDs to detected people and tracks them across frames.
 3. **Counting Logic:** 
    - User provides a **line orientation** (horizontal or vertical) and **line position** (pixel coordinate) via a web interface.
-   - The `FootfallCounter` class tracks IDs and counts entries/exits when they cross the defined line.
+   - The `FootfallCounter` class tracks IDs and counts entries/exits when they cross the defined line based on their centroid.
 4. **Visualization:** Bounding boxes, IDs, line, and in/out counts are drawn on each frame. The processed video is saved and accessible via the web interface.
 
 ## Counting Logic
