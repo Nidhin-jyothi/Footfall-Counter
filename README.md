@@ -74,6 +74,13 @@ env\Scripts\activate         # Windows
 pip install -r requirements.txt
 ```
 
+### 4. Download YOLOv8 Weights
+The project uses YOLOv8 nano (`yolov8n.pt`) for human detection. Download the weights from Ultralytics:
+
+```bash
+wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
+```
+
 ## Usage
 Web Interface
 
